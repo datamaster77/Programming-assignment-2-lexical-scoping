@@ -1,4 +1,4 @@
-## This pair of functions try to achive the PA 2.
+## This pair of functions try to achive the PA 2
 
 ## Caches the inverse of the matrix for future computations
 
