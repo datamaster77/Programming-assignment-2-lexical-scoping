@@ -1,4 +1,4 @@
-## This pair of functions try to achive the PA 2
+## This pair of functions try to achive successfully the PA 2
 
 ## Caches the inverse of the matrix for future computations
 
@@ -7,7 +7,7 @@ makeCacheMatrix <- function(x = matrix()) {
    set <- function(y) {
       x <<- y
       m <<- NULL
-   } # Establece los valores de la matriz 
+   } # Stablishes the matrix values
    get <- function() x
    setm <- function(solve) m <<- solve # Obtiene la inversa de la matriz
    getm <- function() m
@@ -18,6 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 # Computes the inverse of the matrix
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
    m <- x$getm()
